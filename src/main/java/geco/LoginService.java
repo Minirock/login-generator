@@ -17,10 +17,10 @@ public class LoginService {
 
     /**
      * Construit un login service a partir de la liste des logins existants
-     * @param loginsExistants
+     * @param testListe
      */
-    public LoginService(String[] loginsExistants) {
-        this.loginsExistants = new ArrayList<String>(Arrays.asList(loginsExistants));
+    public LoginService(String[] testListe) {
+        this.loginsExistants = new ArrayList<String>((loginsExistants));
         Collections.sort(this.loginsExistants);
     }
 

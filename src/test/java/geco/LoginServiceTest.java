@@ -15,7 +15,7 @@ public class LoginServiceTest  {
     @Before
     public void setUp() throws Exception {
         String s1="test";
-        String[] testListe = new String[5];
+        String[] testListe = new String[1];
         testListe[0]=s1;
         l = new LoginService(testListe);
 
